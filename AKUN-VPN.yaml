@@ -1,27 +1,17 @@
 proxies:
-  - name: FAST
-    server: quiz.vidio.com
+ - name: Selut848j
+    server: id-lite1.nixystore.my.id
     port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
+    type: vmess
+    uuid: 05fa2088-c4ca-4022-b6fc-103f97bc2366
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    servername: id-lite1.nixystore.my.id
     network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
-    udp: true
-  - name: AKUN2
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id-lite1.nixystore.my.id
     udp: true
